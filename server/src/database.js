@@ -104,6 +104,7 @@ var initialData = {
   }
 };
 
+
 var data;
 // If 'true', the in-memory object representing the database has changed,
 // and we should flush it to disk.

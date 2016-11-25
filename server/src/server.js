@@ -325,7 +325,7 @@ function(req,res){
     res.send(newPost);
   }
   else{
-    res.send(401).end();
+    res.status(401).end();
   }
 });
 
@@ -348,7 +348,7 @@ function(req,res){
     res.status(201);
     res.send(comment);
   } else {
-    res.send(401).end();
+    res.status(401).end();
   }
 });
 
@@ -372,7 +372,7 @@ function(req,res){
     res.status(201);
     res.send(comment);
   } else {
-    res.send(401).end();
+    res.status(401).end();
   }
 });
 
